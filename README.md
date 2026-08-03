@@ -1,92 +1,91 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=G.A.M.%20Praveen%20N.%20Gunarathna&fontSize=36&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Software%20Developer%20%7C%20Mobile%20App%20Developer%20%7C%20Web%20Developer&descAlignY=55&descAlign=50" />
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--                     ANIMATED HEADER BANNER                   -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,30:0a3d62,60:1e3799,100:00D4FF&height=220&section=header&text=G.A.M.%20Praveen%20N.%20Gunarathna&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software%20Developer%20%7C%20Mobile%20App%20Developer%20%7C%20Web%20Developer&descAlignY=58&descSize=18&descAlign=50" width="100%"/>
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--                     ANIMATED TYPING LINE                     -->
+<!-- ══════════════════════════════════════════════════════════════ -->
 
 <a href="https://github.com/Praveen061215">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&width=700&height=100&lines=👋+Hello%2C+I%27m+Praveen+Gunarathna!;💻+Freelance+Software+Developer;🌍+Based+in+Sri+Lanka;🚀+Building+Scalable+%26+Reliable+Solutions" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=false&width=750&height=60&lines=👋+Hello%2C+I'm+Praveen+Gunarathna!;💻+Freelance+Software+Developer;📱+Mobile+App+Developer+%7C+Flutter;🌐+Full-Stack+Web+Developer;🚀+Building+Scalable+%26+Reliable+Solutions;🇱🇰+Based+in+Sri+Lanka" alt="Typing SVG" />
 </a>
 
 <br/>
 
-[![GitHub followers](https://img.shields.io/github/followers/Praveen061215?label=Follow&style=for-the-badge&color=0D1117&labelColor=0D1117&logo=github&logoColor=white)](https://github.com/Praveen061215)
+<!-- Profile Badges -->
+[![GitHub followers](https://img.shields.io/github/followers/Praveen061215?label=Followers&style=for-the-badge&color=00D4FF&labelColor=0D1117&logo=github&logoColor=white)](https://github.com/Praveen061215)
+[![GitHub stars](https://img.shields.io/github/stars/Praveen061215?label=Stars&style=for-the-badge&color=FFD700&labelColor=0D1117&logo=github&logoColor=white)](https://github.com/Praveen061215)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/praveengunarathna-5a478535a)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:praveennethsith06@gmail.com)
+[![Email](https://img.shields.io/badge/Gmail-Mail%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:praveennethsith06@gmail.com)
 [![Profile Views](https://komarev.com/ghpvc/?username=Praveen061215&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS)](https://github.com/Praveen061215)
 
 </div>
 
 ---
 
-<img align="right" alt="Coding" width="380" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--                        ABOUT ME                              -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+
+<img align="right" alt="Developer Coding GIF" width="360" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
 
 ## 🧑‍💻 About Me
 
 ```yaml
-Name:        G.A.M. Praveen N. Gunarathna
-Alias:       Praveen Gunarathna
-Location:    No. 62, Rassapana, Banduragoda, Sri Lanka 🇱🇰
-Phone:       076 016 8785
-Email:       praveennethsith06@gmail.com
-Languages:
-  - Sinhala  → Native
-  - English  → Professional Working Proficiency
-Status:      Freelance Software Developer (Remote · 2024–Present)
-Goal:        "Deliver scalable, reliable solutions
-              that solve real-world problems."
+┌─────────────────────────────────────────────┐
+│  👤  Name     : G.A.M. Praveen N. Gunarathna │
+│  🏷️  Alias    : Praveen Gunarathna           │
+│  📍  Location : Sri Lanka 🇱🇰                │
+│  📞  Phone    : 076 016 8785                 │
+│  📧  Email    : praveennethsith06@gmail.com  │
+│                                              │
+│  💼  Role     : Freelance Software Developer │
+│  🗓️  Since    : 2024 — Present (Remote)      │
+│                                              │
+│  🌐  GitHub   : github.com/Praveen061215    │
+│  🔗  LinkedIn : praveengunarathna           │
+└─────────────────────────────────────────────┘
 ```
 
 ### 🎯 What I Do
-- 🖥️ **Software Development** — End-to-end desktop & enterprise solutions
-- 📱 **Mobile App Development** — Cross-platform apps with Flutter & Dart
-- 🌐 **Web Development** — Full-stack web applications
-- 🤝 **Freelance & Consultancy** — Available for remote collaborations
+
+- 🖥️ **Software Development** — End-to-end desktop & enterprise-grade solutions  
+- 📱 **Mobile App Development** — Cross-platform apps with **Flutter & Dart**  
+- 🌐 **Web Development** — Full-stack web applications (PHP, JS, React)  
+- 🎨 **UI/UX Design** — Wireframing, Prototyping & Graphic Design using Figma  
+- 🤝 **Freelance & Consultancy** — Available for remote collaborations & projects  
 
 <br clear="right"/>
 
 ---
 
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--                       EDUCATION                              -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+
 ## 🎓 Education
 
-<table>
-<tr>
-<th>Qualification</th>
-<th>Institution</th>
-<th>Year</th>
-<th>Result</th>
-</tr>
-<tr>
-<td>🎓 BSc (Hons) Computer Science in Software Engineering (Top-Up)</td>
-<td>Kingston University, London 🇬🇧</td>
-<td>2025</td>
-<td>—</td>
-</tr>
-<tr>
-<td>📋 Pearson BTEC Level 5 HND in Software Engineering</td>
-<td>ESOFT Metro Campus, Gampaha</td>
-<td>2023–2025</td>
-<td>—</td>
-</tr>
-<tr>
-<td>🏅 Assured Diploma in IT (DiTEC)</td>
-<td>ESOFT Metro Campus, Gampaha</td>
-<td>2022–2023</td>
-<td>Merit</td>
-</tr>
-<tr>
-<td>📝 Assured Diploma in English (DiE)</td>
-<td>ESOFT Metro Campus, Gampaha</td>
-<td>2022–2023</td>
-<td>Pass</td>
-</tr>
-<tr>
-<td>🏫 G.C.E. Ordinary Level</td>
-<td>Minu/Nalanda Boys' Central College</td>
-<td>2023</td>
-<td>B (5 subs), C (4 subs)</td>
-</tr>
-</table>
+<div align="center">
+
+| 🏅 Qualification | 🏛️ Institution | 📅 Year | 🏆 Result |
+|:---|:---|:---:|:---:|
+| 🎓 BSc (Hons) Computer Science in Software Engineering (Top-Up) | Kingston University, London 🇬🇧 | 2025 | — |
+| 📋 Pearson BTEC Level 5 HND in Software Engineering | ESOFT Metro Campus, Gampaha | 2023–2025 | — |
+| 🏅 Assured Diploma in Information Technology (DiTEC) | ESOFT Metro Campus, Gampaha | 2022–2023 | Merit |
+| 📝 Assured Diploma in English (DiE) | ESOFT Metro Campus, Gampaha | 2022–2023 | Pass |
+| 🏫 G.C.E. Ordinary Level | Minu/Nalanda Boys' Central College | 2023 | B (5) · C (4) |
+
+</div>
 
 ---
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--                     TECH STACK & TOOLS                       -->
+<!-- ══════════════════════════════════════════════════════════════ -->
 
 ## 💻 Tech Stack & Tools
 
@@ -120,7 +119,8 @@ Goal:        "Deliver scalable, reliable solutions
 <div align="center">
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+![Firebase](https://img.shields.io/badge/Firebase-%23039BE5.svg?style=for-the-badge&logo=firebase&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 
 </div>
 
@@ -138,13 +138,29 @@ Goal:        "Deliver scalable, reliable solutions
 
 </div>
 
+### 🎨 Design Skills
+
+<div align="center">
+
+![UI/UX Design](https://img.shields.io/badge/UI%2FUX%20Design-%23FF6B6B.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Wireframing](https://img.shields.io/badge/Wireframing-%234ECDC4.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Prototype Design](https://img.shields.io/badge/Prototype%20Design-%2345B7D1.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Graphic Design](https://img.shields.io/badge/Graphic%20Design-%23A29BFE.svg?style=for-the-badge&logo=adobe&logoColor=white)
+![System Diagram](https://img.shields.io/badge/System%20Diagram%20Design-%23FDCB6E.svg?style=for-the-badge&logo=diagrams.net&logoColor=black)
+
+</div>
+
 ---
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--                     GITHUB STATISTICS                        -->
+<!-- ══════════════════════════════════════════════════════════════ -->
 
 ## 📊 GitHub Statistics
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Praveen061215&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=FFFFFF"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Praveen061215&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=FFFFFF&rank_icon=github"/>
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Praveen061215&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=FFFFFF"/>
 
 </div>
@@ -157,21 +173,29 @@ Goal:        "Deliver scalable, reliable solutions
 
 <div align="center">
 
-[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Praveen061215&bg_color=0D1117&color=00D4FF&line=00D4FF&point=FFFFFF&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Praveen061215&bg_color=0D1117&color=00D4FF&line=00D4FF&point=FFFFFF&area=true&hide_border=true&area_color=0a3d62)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
 ---
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--                      GITHUB TROPHIES                         -->
+<!-- ══════════════════════════════════════════════════════════════ -->
 
 ## 🏆 GitHub Trophies
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=Praveen061215&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=Praveen061215&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
 ---
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--                   CERTIFICATIONS & AWARDS                    -->
+<!-- ══════════════════════════════════════════════════════════════ -->
 
 ## 📜 Certifications & Awards
 
@@ -192,32 +216,27 @@ Goal:        "Deliver scalable, reliable solutions
 
 ---
 
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--                        SOFT SKILLS                           -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+
 ## 🤝 Soft Skills
 
 <div align="center">
 
-![Leadership](https://img.shields.io/badge/-Leadership-FF6B6B?style=for-the-badge&logoColor=white)
-![Communication](https://img.shields.io/badge/-Communication-4ECDC4?style=for-the-badge&logoColor=white)
-![Teamwork](https://img.shields.io/badge/-Teamwork-45B7D1?style=for-the-badge&logoColor=white)
-![Problem Solving](https://img.shields.io/badge/-Problem%20Solving-96CEB4?style=for-the-badge&logoColor=white)
-![Time Management](https://img.shields.io/badge/-Time%20Management-FFEAA7?style=for-the-badge&logoColor=black)
+![Leadership](https://img.shields.io/badge/🎯%20Leadership-FF6B6B?style=for-the-badge&logoColor=white)
+![Communication](https://img.shields.io/badge/💬%20Communication-4ECDC4?style=for-the-badge&logoColor=white)
+![Teamwork](https://img.shields.io/badge/🤝%20Teamwork-45B7D1?style=for-the-badge&logoColor=white)
+![Problem Solving](https://img.shields.io/badge/🧩%20Problem%20Solving-96CEB4?style=for-the-badge&logoColor=white)
+![Time Management](https://img.shields.io/badge/⏱️%20Time%20Management-FFEAA7?style=for-the-badge&logoColor=black)
 
 </div>
 
 ---
 
-## 🌐 Connect With Me
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-Praveen061215-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Praveen061215)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Praveen%20Gunarathna-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/praveengunarathna-5a478535a)
-[![Gmail](https://img.shields.io/badge/Gmail-praveennethsith06%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:praveennethsith06@gmail.com)
-[![Location](https://img.shields.io/badge/Location-Sri%20Lanka%20🇱🇰-1DA462?style=for-the-badge&logo=googlemaps&logoColor=white)](https://maps.google.com/?q=Banduragoda,Sri+Lanka)
-
-</div>
-
----
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--                    CONTRIBUTION SNAKE                        -->
+<!-- ══════════════════════════════════════════════════════════════ -->
 
 ## 🐍 Contribution Snake
 
@@ -233,7 +252,29 @@ Goal:        "Deliver scalable, reliable solutions
 
 ---
 
-## 💬 Career Goal
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--                      CONNECT WITH ME                         -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+
+## 🌐 Connect With Me
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-Praveen061215-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Praveen061215)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Praveen%20Gunarathna-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/praveengunarathna-5a478535a)
+[![Gmail](https://img.shields.io/badge/Gmail-praveennethsith06%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:praveennethsith06@gmail.com)
+[![Phone](https://img.shields.io/badge/Phone-076%20016%208785-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+94760168785)
+[![Location](https://img.shields.io/badge/Location-Sri%20Lanka%20🇱🇰-1DA462?style=for-the-badge&logo=googlemaps&logoColor=white)](https://maps.google.com/?q=Sri+Lanka)
+
+</div>
+
+---
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--                       CAREER GOAL                            -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+
+## 🚀 Career Goal
 
 <div align="center">
 
@@ -241,18 +282,26 @@ Goal:        "Deliver scalable, reliable solutions
 >
 > — **G.A.M. Praveen N. Gunarathna**
 
+<br/>
+
 ✅ Available for **Freelance Collaborations** &nbsp;|&nbsp; 🌍 Open to **Remote Roles** &nbsp;|&nbsp; 💡 Open for **Technical Consultancies**
 
 </div>
 
 ---
 
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--                     ANIMATED FOOTER                          -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D4FF,50:1e3799,100:0D1117&height=130&section=footer&animation=twinkling" width="100%"/>
 
-**⭐ If you like my work, give a star to my repositories! ⭐**
+**⭐ If you find my work useful, please consider starring my repositories! ⭐**
 
 *Made with ❤️ by [Praveen Gunarathna](https://github.com/Praveen061215) from Sri Lanka 🇱🇰*
+
+![Wave](https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif)
 
 </div>
