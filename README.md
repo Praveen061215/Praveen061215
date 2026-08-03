@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=G.A.M.%20Praveen%20N.%20Gunarathna&fontSize=36&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Software%20Developer%20%7C%20Mobile%20App%20Developer%20%7C%20Web%20Developer&descAlignY=55&descAlign=50" />
 
@@ -214,6 +214,20 @@ Goal:        "Deliver scalable, reliable solutions
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Praveen%20Gunarathna-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/praveengunarathna-5a478535a)
 [![Gmail](https://img.shields.io/badge/Gmail-praveennethsith06%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:praveennethsith06@gmail.com)
 [![Location](https://img.shields.io/badge/Location-Sri%20Lanka%20🇱🇰-1DA462?style=for-the-badge&logo=googlemaps&logoColor=white)](https://maps.google.com/?q=Banduragoda,Sri+Lanka)
+
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Praveen061215/Praveen061215/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Praveen061215/Praveen061215/output/github-snake.svg" />
+  <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/Praveen061215/Praveen061215/output/github-snake.svg" />
+</picture>
 
 </div>
 
