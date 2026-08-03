@@ -152,32 +152,7 @@
 
 ---
 
-<!-- ══════════════════════════════════════════════════════════════ -->
-<!--                     GITHUB STATISTICS                        -->
-<!-- ══════════════════════════════════════════════════════════════ -->
 
-## 📊 GitHub Statistics
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Praveen061215&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=FFFFFF&rank_icon=github"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Praveen061215&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=FFFFFF"/>
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=Praveen061215&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D4FF&ring=00D4FF&fire=FF6B6B&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=00D4FF&sideLabels=00D4FF&dates=FFFFFF)](https://git.io/streak-stats)
-
-</div>
-
-<div align="center">
-
-[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Praveen061215&bg_color=0D1117&color=00D4FF&line=00D4FF&point=FFFFFF&area=true&hide_border=true&area_color=0a3d62)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-</div>
-
----
 
 <!-- ══════════════════════════════════════════════════════════════ -->
 <!--                      GITHUB TROPHIES                         -->
