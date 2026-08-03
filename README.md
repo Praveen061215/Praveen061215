@@ -162,7 +162,7 @@
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=Praveen061215&theme=tokyonight&no-frame=false&no-bg=false&margin-w=8&margin-h=8&column=4&row=2)](https://github.com/ryo-ma/github-profile-trophy)
+<img src="https://github-profile-trophy.vercel.app/?username=Praveen061215&theme=tokyonight&no-frame=false&no-bg=false&margin-w=8&margin-h=8&column=4&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" alt="GitHub Trophies Row 1" />
 
 </div>
 
