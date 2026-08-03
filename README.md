@@ -37,21 +37,11 @@
 
 I am a motivated Computing Science graduate holding a BSc (Hons) in Computer Science in Software Engineering from Kingston University London. I specialize in building responsive, high-performance web, mobile, and desktop applications using Java, Dart (Flutter), and PHP, alongside a solid foundation in HTML, JavaScript, C#, and Python. Through hands-on experience in academic projects and freelance software development, I have developed a strong workflow for requirements gathering, UI/UX design, and database integration. Powered by teamwork, leadership, and a proactive problem-solving mindset, I am eager to begin my professional career in the IT industry and grow as a skilled Software Engineer.
 
-```yaml
-┌─────────────────────────────────────────────┐
-│  👤  Name     : G.A.M. Praveen N. Gunarathna │
-│  🏷️  Alias    : Praveen Gunarathna           │
-│  📍  Location : Sri Lanka 🇱🇰                │
-│  📞  Phone    : 076 016 8785                 │
-│  📧  Email    : praveennethsith06@gmail.com  │
-│                                              │
-│  💼  Role     : Freelance Software Developer │
-│  🗓️  Since    : 2024 — Present (Remote)      │
-│                                              │
-│  🌐  GitHub   : github.com/Praveen061215    │
-│  🔗  LinkedIn : praveengunarathna           │
-└─────────────────────────────────────────────┘
-```
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Praveen061215/Praveen061215/main/card.svg" alt="Praveen Gunarathna - Personal Info" width="480px" />
+</div>
+
 
 ### 🎯 What I Do
 

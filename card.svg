@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="320" viewBox="0 0 480 320" fill="none">
+  <style>
+    .card {
+      fill: #0D1117;
+      stroke: url(#border-glow);
+      stroke-width: 2;
+      rx: 16px;
+    }
+    .title {
+      font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      fill: #00D4FF;
+      letter-spacing: 1px;
+    }
+    .label {
+      font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      fill: #8b9bb4;
+    }
+    .value {
+      font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      fill: #ffffff;
+    }
+    .icon {
+      font-size: 15px;
+    }
+    
+    /* Animations */
+    @keyframes move-glow {
+      0% {
+        stop-color: #00D4FF;
+      }
+      50% {
+        stop-color: #9b51e0;
+      }
+      100% {
+        stop-color: #0088FF;
+      }
+    }
+    .glow-stop-1 {
+      animation: move-glow 4s infinite alternate;
+    }
+    .glow-stop-2 {
+      animation: move-glow 4s infinite alternate-reverse;
+    }
+    
+    /* Fade in rows */
+    .row {
+      opacity: 0;
+      animation: fade-in 0.8s ease-out forwards;
+    }
+    .row-1 { animation-delay: 0.1s; }
+    .row-2 { animation-delay: 0.2s; }
+    .row-3 { animation-delay: 0.3s; }
+    .row-4 { animation-delay: 0.4s; }
+    .row-5 { animation-delay: 0.5s; }
+    .row-6 { animation-delay: 0.6s; }
+    .row-7 { animation-delay: 0.7s; }
+    .row-8 { animation-delay: 0.8s; }
+
+    @keyframes fade-in {
+      from {
+        opacity: 0;
+        transform: translateY(8px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="border-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" class="glow-stop-1" />
+      <stop offset="100%" class="glow-stop-2" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#00D4FF" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Card Background -->
+  <rect class="card" x="2" y="2" width="476" height="316" filter="url(#shadow)" rx="16" />
+  
+  <!-- Header -->
+  <g class="row row-1" transform="translate(25, 35)">
+    <text class="title">PERSONAL INFORMATION</text>
+    <line x1="0" y1="12" x2="430" y2="12" stroke="#1f2937" stroke-width="1" />
+  </g>
+
+  <!-- Content Rows -->
+  <g class="row row-2" transform="translate(25, 75)">
+    <text class="icon" x="0" y="14">👤</text>
+    <text class="label" x="25" y="13">Full Name:</text>
+    <text class="value" x="125" y="13">G.A.M. Praveen N. Gunarathna</text>
+  </g>
+
+  <g class="row row-3" transform="translate(25, 105)">
+    <text class="icon" x="0" y="14">🏷️</text>
+    <text class="label" x="25" y="13">Display Name:</text>
+    <text class="value" x="125" y="13">Praveen Gunarathna</text>
+  </g>
+
+  <g class="row row-4" transform="translate(25, 135)">
+    <text class="icon" x="0" y="14">📍</text>
+    <text class="label" x="25" y="13">Location:</text>
+    <text class="value" x="125" y="13">Sri Lanka 🇱🇰</text>
+  </g>
+
+  <g class="row row-5" transform="translate(25, 165)">
+    <text class="icon" x="0" y="14">📞</text>
+    <text class="label" x="25" y="13">Phone:</text>
+    <text class="value" x="125" y="13">076 016 8785</text>
+  </g>
+
+  <g class="row row-6" transform="translate(25, 195)">
+    <text class="icon" x="0" y="14">📧</text>
+    <text class="label" x="25" y="13">Email:</text>
+    <text class="value" x="125" y="13">praveennethsith06@gmail.com</text>
+  </g>
+
+  <g class="row row-7" transform="translate(25, 225)">
+    <text class="icon" x="0" y="14">💼</text>
+    <text class="label" x="25" y="13">Role:</text>
+    <text class="value" x="125" y="13">Freelance Software Developer (Remote)</text>
+  </g>
+
+  <!-- Footer Links / Social Info -->
+  <g class="row row-8" transform="translate(25, 270)">
+    <line x1="0" y1="0" x2="430" y2="0" stroke="#1f2937" stroke-width="1" />
+    <text class="icon" x="0" y="20">🔗</text>
+    <text class="label" x="25" y="18">GitHub: praveen061215  |  LinkedIn: praveengunarathna</text>
+  </g>
+</svg>
