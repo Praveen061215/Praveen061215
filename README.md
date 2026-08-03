@@ -11,7 +11,7 @@
 <!-- ══════════════════════════════════════════════════════════════ -->
 
 <a href="https://github.com/Praveen061215">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=false&width=750&height=60&lines=👋+Hello%2C+I'm+Praveen+Gunarathna!;💻+Freelance+Software+Developer;📱+Mobile+App+Developer+%7C+Flutter;🌐+Full-Stack+Web+Developer;🚀+Building+Scalable+%26+Reliable+Solutions;🇱🇰+Based+in+Sri+Lanka" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=00D4FF&center=true&vCenter=true&multiline=false&repeat=true&width=800&height=55&lines=%F0%9F%91%8B+Hello%2C+I%27m+Praveen+Gunarathna!;%F0%9F%92%BB+Freelance+Software+Developer;%F0%9F%93%B1+Mobile+App+Developer+%7C+Flutter+%26+Dart;%F0%9F%8C%90+Full-Stack+Web+Developer;%F0%9F%8E%A8+UI%2FUX+Designer+%7C+Figma;%F0%9F%9A%80+Building+Scalable+%26+Reliable+Solutions;%F0%9F%87%B1%F0%9F%87%B0+Based+in+Sri+Lanka" alt="Typing SVG" />
 </a>
 
 <br/>
