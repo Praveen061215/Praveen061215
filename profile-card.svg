@@ -17,8 +17,9 @@
     </pattern>
 
     <!-- Styles -->
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&amp;family=Outfit:wght@400;600;700;800&amp;display=swap');
+    <style type="text/css">
+      <![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Outfit:wght@400;600;700;800&display=swap');
       
       .card-bg {
         fill: url(#bg);
@@ -68,7 +69,7 @@
         fill: #00D4FF;
       }
 
-      /* Glow & Neon Border Animation */
+      /* Glow and Neon Border Animation */
       .glow-border {
         stroke-dasharray: 1560;
         stroke-dashoffset: 1560;
@@ -81,7 +82,7 @@
         }
       }
       
-      /* Subtle Fade/Slide-Up Keyframes */
+      /* Subtle Fade and Slide-Up Keyframes */
       .fade-in {
         animation: slideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
         opacity: 0;
@@ -130,6 +131,7 @@
           stroke-dashoffset: 0;
         }
       }
+      ]]>
     </style>
   </defs>
 
@@ -138,7 +140,7 @@
   <!-- Grid overlay inside -->
   <rect class="grid-overlay" x="5" y="5" width="470" height="290" />
   
-  <!-- Glowing moving border (optional overlay) -->
+  <!-- Glowing moving border -->
   <rect class="glow-border" x="4" y="4" width="472" height="292" fill="none" stroke="#00D4FF" stroke-width="2.5" rx="16" />
 
   <!-- Active Status Tag -->
@@ -148,7 +150,7 @@
     <text x="28" y="16" font-family="'Outfit', sans-serif" font-size="11" font-weight="600" fill="#8B949E">Open to Roles</text>
   </g>
 
-  <!-- Name & Title -->
+  <!-- Name and Title -->
   <g class="fade-in delay-1" transform="translate(32, 64)">
     <text x="0" y="0" class="text-title">Praveen <tspan class="text-accent">Gunarathna</tspan></text>
     <text x="0" y="24" class="text-subtitle">Freelance Software Developer (Remote)</text>
