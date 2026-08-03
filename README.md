@@ -71,13 +71,13 @@
 
 <div align="center">
 
-| 🏅 Qualification | 🏛️ Institution | 📅 Year | 🏆 Result |
-|:---|:---|:---:|:---:|
-| 🎓 BSc (Hons) Computer Science in Software Engineering (Top-Up) | Kingston University, London 🇬🇧 | 2025 | — |
-| 📋 Pearson BTEC Level 5 HND in Software Engineering | ESOFT Metro Campus, Gampaha | 2023–2025 | — |
-| 🏅 Assured Diploma in Information Technology (DiTEC) | ESOFT Metro Campus, Gampaha | 2022–2023 | Merit |
-| 📝 Assured Diploma in English (DiE) | ESOFT Metro Campus, Gampaha | 2022–2023 | Pass |
-| 🏫 G.C.E. Ordinary Level | Minu/Nalanda Boys' Central College | 2023 | B (5) · C (4) |
+| 🏅 Qualification | 🏛️ Institution | 📅 Year |
+|:---|:---|:---:|
+| 🎓 BSc (Hons) Computer Science in Software Engineering (Top-Up) | Kingston University, London 🇬🇧 | 2025 |
+| 📋 Pearson BTEC Level 5 HND in Software Engineering | ESOFT Metro Campus, Gampaha | 2023–2025 |
+| 🏅 Assured Diploma in Information Technology (DiTEC) | ESOFT Metro Campus, Gampaha | 2022–2023 |
+| 📝 Assured Diploma in English (DiE) | ESOFT Metro Campus, Gampaha | 2022–2023 |
+| 🏫 G.C.E. Ordinary Level | Minu/Nalanda Boys' Central College | 2023 |
 
 </div>
 
