@@ -1,135 +1,197 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280" width="100%" height="280">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="300" viewBox="0 0 480 300">
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0d1117" />
-      <stop offset="50%" stop-color="#0f172a" />
-      <stop offset="100%" stop-color="#020617" />
+    <!-- Gradients -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
     </linearGradient>
-
-    <!-- Neon Glow Border Gradient -->
-    <linearGradient id="neonGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00D4FF" />
-      <stop offset="50%" stop-color="#3b82f6" />
-      <stop offset="100%" stop-color="#1d4ed8" />
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00D4FF"/>
+      <stop offset="50%" stop-color="#1e3799"/>
+      <stop offset="100%" stop-color="#00D4FF"/>
     </linearGradient>
+    
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#21262d" stroke-width="0.8"/>
+    </pattern>
 
-    <!-- Drop Shadow Filter for Glow -->
-    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#00D4FF" flood-opacity="0.3" />
-    </filter>
-
+    <!-- Styles -->
     <style>
-      .text-label {
-        font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-        font-weight: 600;
-        fill: #94a3b8;
-        font-size: 13px;
-      }
-      .text-value {
-        font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-        font-weight: 500;
-        fill: #f1f5f9;
-        font-size: 14px;
-      }
-      .text-link {
-        fill: #00D4FF;
-        font-weight: 600;
-        text-decoration: none;
-      }
-      .title {
-        font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        fill: #00D4FF;
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&amp;family=Outfit:wght@400;600;700;800&amp;display=swap');
+      
+      .card-bg {
+        fill: url(#bg);
+        stroke: url(#glow);
+        stroke-width: 2.5;
+        rx: 16px;
       }
       
-      /* Slide-in & Fade-in Animations */
-      @keyframes fadeIn {
-        from { opacity: 0; }
-        to { opacity: 1; }
+      .grid-overlay {
+        fill: url(#grid);
+        opacity: 0.7;
+        rx: 16px;
       }
-      @keyframes slideInLeft {
-        from { transform: translateX(-20px); opacity: 0; }
-        to { transform: translateX(0); opacity: 1; }
-      }
-      @keyframes borderPulse {
-        0%, 100% { stroke-opacity: 0.8; }
-        50% { stroke-opacity: 0.4; }
-      }
-      @keyframes float {
-        0%, 100% { transform: translateY(0); }
-        50% { transform: translateY(-4px); }
+      
+      .text-title {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 800;
+        font-size: 24px;
+        fill: #FFFFFF;
+        letter-spacing: -0.5px;
       }
 
-      .animated-bg {
-        animation: fadeIn 1.2s ease-out;
+      .text-accent {
+        fill: #00D4FF;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 700;
       }
-      .animated-border {
-        animation: borderPulse 4s infinite ease-in-out;
+      
+      .text-subtitle {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        fill: #8B949E;
+        letter-spacing: 0.2px;
       }
-      .col-1 {
-        animation: slideInLeft 0.8s ease-out forwards;
+      
+      .text-body {
+        font-family: 'Fira Code', monospace;
+        font-size: 13px;
+        fill: #C9D1D9;
       }
-      .col-2 {
-        animation: slideInLeft 1s ease-out forwards;
+      
+      .text-label {
+        font-family: 'Fira Code', monospace;
+        font-weight: 500;
+        font-size: 13px;
+        fill: #00D4FF;
       }
-      .float-icon {
-        animation: float 3s infinite ease-in-out;
+
+      /* Glow & Neon Border Animation */
+      .glow-border {
+        stroke-dasharray: 1560;
+        stroke-dashoffset: 1560;
+        animation: borderAnimate 6s linear infinite;
+      }
+
+      @keyframes borderAnimate {
+        to {
+          stroke-dashoffset: 0;
+        }
+      }
+      
+      /* Subtle Fade/Slide-Up Keyframes */
+      .fade-in {
+        animation: slideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        opacity: 0;
+      }
+      .delay-1 { animation-delay: 0.1s; }
+      .delay-2 { animation-delay: 0.2s; }
+      .delay-3 { animation-delay: 0.3s; }
+      .delay-4 { animation-delay: 0.4s; }
+      
+      @keyframes slideUp {
+        from { 
+          opacity: 0; 
+          transform: translateY(12px); 
+        }
+        to { 
+          opacity: 1; 
+          transform: translateY(0); 
+        }
+      }
+      
+      /* Active Status pulse */
+      .status-pulse {
+        fill: #00D4FF;
+        animation: pulseGlow 2s infinite;
+      }
+      
+      @keyframes pulseGlow {
+        0% { r: 4px; opacity: 0.6; filter: drop-shadow(0 0 2px #00D4FF); }
+        50% { r: 6px; opacity: 1; filter: drop-shadow(0 0 6px #00D4FF); }
+        100% { r: 4px; opacity: 0.6; filter: drop-shadow(0 0 2px #00D4FF); }
+      }
+
+      /* Border accent line animation */
+      .accent-line {
+        stroke: url(#glow);
+        stroke-width: 2;
+        stroke-linecap: round;
+        stroke-dasharray: 400;
+        stroke-dashoffset: 400;
+        animation: drawLine 2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        animation-delay: 0.4s;
+      }
+
+      @keyframes drawLine {
+        to {
+          stroke-dashoffset: 0;
+        }
       }
     </style>
   </defs>
 
-  <!-- Card Background -->
-  <rect width="600" height="280" rx="16" fill="url(#bgGrad)" class="animated-bg" />
+  <!-- Background Rect with glow -->
+  <rect class="card-bg" x="4" y="4" width="472" height="292" />
+  <!-- Grid overlay inside -->
+  <rect class="grid-overlay" x="5" y="5" width="470" height="290" />
   
-  <!-- Glowing Border -->
-  <rect x="2" y="2" width="596" height="276" rx="14" fill="none" stroke="url(#neonGrad)" stroke-width="2" class="animated-border" filter="url(#glow)" />
+  <!-- Glowing moving border (optional overlay) -->
+  <rect class="glow-border" x="4" y="4" width="472" height="292" fill="none" stroke="#00D4FF" stroke-width="2.5" rx="16" />
 
-  <!-- Title / Header -->
-  <g transform="translate(30, 45)">
-    <text class="title" x="0" y="0">⚡ Profile &amp; Contact Card</text>
-    <line x1="0" y1="12" x2="540" y2="12" stroke="#334155" stroke-width="1" />
+  <!-- Active Status Tag -->
+  <g class="fade-in" transform="translate(340, 28)">
+    <rect width="112" height="24" rx="12" fill="#161b22" stroke="#21262d" stroke-width="1" />
+    <circle class="status-pulse" cx="16" cy="12" r="5" />
+    <text x="28" y="16" font-family="'Outfit', sans-serif" font-size="11" font-weight="600" fill="#8B949E">Open to Roles</text>
   </g>
 
-  <!-- COLUMN 1: Personal Info -->
-  <g class="col-1" transform="translate(30, 85)">
-    <!-- Name -->
-    <text class="text-label" x="0" y="20">👤 Full Name</text>
-    <text class="text-value" x="120" y="20">G.A.M. Praveen N. Gunarathna</text>
+  <!-- Name & Title -->
+  <g class="fade-in delay-1" transform="translate(32, 64)">
+    <text x="0" y="0" class="text-title">Praveen <tspan class="text-accent">Gunarathna</tspan></text>
+    <text x="0" y="24" class="text-subtitle">Freelance Software Developer (Remote)</text>
+    
+    <!-- Custom Animated Line Under Title -->
+    <line x1="0" y1="36" x2="416" y2="36" class="accent-line" />
+  </g>
 
-    <!-- Alias -->
-    <text class="text-label" x="0" y="55">🏷️ Alias</text>
-    <text class="text-value" x="120" y="55">Praveen Gunarathna</text>
+  <!-- Details Block -->
+  <g class="fade-in delay-2" transform="translate(32, 136)">
+    <!-- Full Name -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="0" class="text-label">👤 Name</text>
+      <text x="110" y="0" class="text-body">: G.A.M. Praveen N. Gunarathna</text>
+    </g>
 
     <!-- Location -->
-    <text class="text-label" x="0" y="90">📍 Location</text>
-    <text class="text-value" x="120" y="90">Sri Lanka 🇱🇰</text>
+    <g transform="translate(0, 26)">
+      <text x="0" y="0" class="text-label">📍 Location</text>
+      <text x="110" y="0" class="text-body">: Sri Lanka 🇱🇰</text>
+    </g>
 
     <!-- Phone -->
-    <text class="text-label" x="0" y="125">📞 Phone</text>
-    <text class="text-value" x="120" y="125">076 016 8785</text>
+    <g transform="translate(0, 52)">
+      <text x="0" y="0" class="text-label">📞 Phone</text>
+      <text x="110" y="0" class="text-body">: 076 016 8785</text>
+    </g>
 
     <!-- Email -->
-    <text class="text-label" x="0" y="160">📧 Email</text>
-    <text class="text-value text-link" x="120" y="160">praveennethsith06@gmail.com</text>
+    <g transform="translate(0, 78)">
+      <text x="0" y="0" class="text-label">📧 Email</text>
+      <text x="110" y="0" class="text-body">: praveennethsith06@gmail.com</text>
+    </g>
+
+    <!-- Since -->
+    <g transform="translate(0, 104)">
+      <text x="0" y="0" class="text-label">💼 Career</text>
+      <text x="110" y="0" class="text-body">: 2024 — Present</text>
+    </g>
   </g>
 
-  <!-- Vertical Divider -->
-  <line x1="390" y1="85" x2="390" y2="245" stroke="#334155" stroke-width="1" />
-
-  <!-- COLUMN 2: Professional Roles -->
-  <g class="col-2" transform="translate(415, 85)">
-    <!-- Role -->
-    <text class="text-label" x="0" y="20">💼 Role</text>
-    <text class="text-value" x="0" y="42">Freelance Dev</text>
-
-    <!-- Status -->
-    <text class="text-label" x="0" y="80">🗓️ Since</text>
-    <text class="text-value" x="0" y="102">2024 — Present</text>
-
-    <!-- GitHub link -->
-    <text class="text-label" x="0" y="140">🌐 GitHub</text>
-    <text class="text-value text-link" x="0" y="162">Praveen061215</text>
+  <!-- Brand watermark or tiny signature -->
+  <g class="fade-in delay-3" transform="translate(32, 272)">
+    <text x="0" y="0" font-family="'Outfit', sans-serif" font-size="10" fill="#58A6FF" font-weight="600" opacity="0.8">BUILDING DIGITAL SOLUTIONS</text>
   </g>
 </svg>

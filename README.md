@@ -37,9 +37,11 @@
 
 I am a motivated Computing Science graduate holding a BSc (Hons) in Computer Science in Software Engineering from Kingston University London. I specialize in building responsive, high-performance web, mobile, and desktop applications using Java, Dart (Flutter), and PHP, alongside a solid foundation in HTML, JavaScript, C#, and Python. Through hands-on experience in academic projects and freelance software development, I have developed a strong workflow for requirements gathering, UI/UX design, and database integration. Powered by teamwork, leadership, and a proactive problem-solving mindset, I am eager to begin my professional career in the IT industry and grow as a skilled Software Engineer.
 
-<div align="center">
-  <img src="profile-card.svg" alt="Praveen Gunarathna Profile Card" width="600" />
-</div>
+
+<p align="center">
+  <img src="./profile-card.svg" alt="Praveen Gunarathna Profile Card" width="480" />
+</p>
+
 
 ### 🎯 What I Do
 
