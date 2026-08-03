@@ -158,11 +158,20 @@
 <!--                      GITHUB TROPHIES                         -->
 <!-- ══════════════════════════════════════════════════════════════ -->
 
-## 🏆 GitHub Trophies
+## 🏆 Achievements & Highlights
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Praveen061215&theme=tokyonight&no-frame=false&no-bg=false&margin-w=8&margin-h=8&column=4&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" alt="GitHub Trophies Row 1" />
+| 🥇 Achievement | 📌 Details |
+|:---|:---|
+| 🎓 **BSc Graduate** | Kingston University, London — 2025 |
+| 🏅 **HND Graduate** | Pearson BTEC Level 5 — ESOFT Metro Campus |
+| 💻 **Freelance Developer** | Self-Employed · Remote · 2024–Present |
+| 🐍 **Python Certified** | University of Moratuwa — 2024 |
+| 🏆 **Leadership Award** | Nalanda Boys' Central College — 2022 & 2023 |
+| 🌐 **English Certified** | The English Bank — Residential Course 2026 |
+| 📱 **Flutter Developer** | Cross-platform Mobile Applications |
+| 🎨 **UI/UX Designer** | Figma — End-to-End Design |
 
 </div>
 
