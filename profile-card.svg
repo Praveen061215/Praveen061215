@@ -72,10 +72,11 @@
     <animate attributeName="opacity" from="0" to="1" dur="0.6s" fill="freeze" begin="0.15s"/>
     <!-- First name -->
     <text y="0" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif"
-          font-size="28" font-weight="800" fill="#FFFFFF" letter-spacing="-1">Praveen</text>
+          font-size="28" font-weight="800" fill="#39ff14" letter-spacing="-1"
+          filter="url(#glow)">Praveen</text>
     <!-- Accent last name -->
     <text x="175" y="0" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif"
-          font-size="28" font-weight="800" fill="#00D4FF" letter-spacing="-1"
+          font-size="28" font-weight="800" fill="#39ff14" letter-spacing="-1"
           filter="url(#glow)">Gunarathna</text>
     <!-- Sub-role -->
     <text y="24" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif"
